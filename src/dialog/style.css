@@ -1,0 +1,16 @@
+.title {
+  color: coral;
+}
+
+.dialog::backdrop {
+  background: rgba(0,0,0,.25);
+}
+
+.dialog:modal {
+  background-color: #E7F6F2;
+}
+
+/* #2C3333 */
+/* #395B64 */
+/* #A5C9CA */
+/* #E7F6F2 */
