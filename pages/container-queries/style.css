@@ -23,3 +23,22 @@
     display: block;
   }
 }
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.card-has {
+  padding: 1rem;
+  background-color: #A5C9CA;
+  border-radius: 4px;
+  overflow: hidden;
+  color: #333;
+}
+
+.card-has:not(:has(> picture)) h2 {
+  font-size: 4rem;
+  color: #395B64;
+  font-weight: bold;
+}
