@@ -1,0 +1,75 @@
+.section {
+  margin: 0 auto;
+  background-image: url(./nus3-blog-logo.png);
+  background-size: contain;
+  width: 500px;
+  height: 1000px;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+.section > div {
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5em;
+  width: 80%;
+}
+
+.blur {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+
+.invert {
+  -webkit-backdrop-filter: invert(100%);
+  backdrop-filter: invert(100%);
+}
+
+.grayscale {
+  -webkit-backdrop-filter: grayscale(100%);
+  backdrop-filter: grayscale(100%);
+}
+
+.brightness {
+  -webkit-backdrop-filter: brightness(60%);
+  backdrop-filter: brightness(60%);
+}
+
+.contrast {
+  -webkit-backdrop-filter: contrast(60%);
+  backdrop-filter: contrast(40%)
+}
+
+.drop-shadow {
+  -webkit-backdrop-filter: drop-shadow(4px 4px 10px blue);
+  backdrop-filter: drop-shadow(4px 4px 10px blue)
+}
+
+.hue-rotate {
+  -webkit-backdrop-filter: hue-rotate(120deg);
+  backdrop-filter: hue-rotate(120deg);
+}
+
+.opacity {
+  -webkit-backdrop-filter: opacity(20%);
+  backdrop-filter: opacity(20%);
+}
+
+.sepia {
+  -webkit-backdrop-filter: sepia(90%);
+  backdrop-filter: sepia(90%);
+}
+
+.saturate {
+  -webkit-backdrop-filter: saturate(80%);
+  backdrop-filter: saturate(80%);
+}
+
+
+
+
