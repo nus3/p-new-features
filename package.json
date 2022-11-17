@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "reload -b -d src -p 8081"
+    "dev": "reload -b -p 8081"
   },
   "keywords": [],
   "author": "",
