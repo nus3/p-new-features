@@ -1,0 +1,25 @@
+/* #2C3333 */
+/* #395B64 */
+/* #A5C9CA */
+/* #E7F6F2 */
+
+
+.container {
+  container-type: inline-size;
+}
+
+.card {
+  display: flex;
+  gap: 50px;
+  padding: 1rem;
+  background-color: #395B64;
+  color: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+@container (max-width: 800px) {
+  .card {
+    display: block;
+  }
+}
